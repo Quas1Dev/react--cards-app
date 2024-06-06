@@ -1,13 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import foto from './images/fernando.jpg'
 
-// CardInfo Section
+// CardInfo Section; This encompass picture, name of who is the card about,
+// the job of the person, a website link, and two main contact medium.
 export default function CardInfo() {
   return (
     <section className="cardinfo">
 
       <div className="cardinfo--aspect_ration_keeper">
-        <img className="cardinfo--foto"src={foto}/>
+        <img className="cardinfo--foto" src={foto} alt="Profile pircture."/>
       </div>
 
       <h1 className="cardinfo--person_name">Fernando</h1>

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import foto from './images/fernando.jpg'
+import foto from './images/brian.jpg'
 
 // CardInfo Section; This encompass picture, name of who is the card about,
 // the job of the person, a website link, and two main contact medium.
